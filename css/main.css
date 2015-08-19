@@ -1,0 +1,86 @@
+body
+{
+    background-image: url("images/home.png");
+    background-size: cover;
+}
+.login_register
+{  
+    width:100%;
+    display: inline-block;
+}
+    .login-links li {
+        margin:0px 5px;
+        float:right;
+        list-style:none;
+    }
+    .login-links a {
+        padding:9px 15px;
+        display:inline-block;
+        border-radius:3px 3px 0px 0px;
+        background:#7FB5DA;
+        font-size:16px;
+        font-weight:600;
+        color:#4c4c4c;
+    }
+    .login-links a:hover {
+            background:white;
+            text-decoration:none;
+            transition: background 0.25s linear;
+        }
+a
+{
+    text-decoration: none;
+}
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    /*.tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }*/
+        .tab1 {display: none;}
+        .tab2 {display: none;}
+        .tab3 {display: none;}
+        .tab4 {display: none;}
+        .tab.active {
+            display:block;
+        }
